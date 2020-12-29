@@ -1,0 +1,18 @@
+{
+  "name": "customtransformers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uppercaseStringLiteralTransformer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}
