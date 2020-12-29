@@ -1,6 +1,5 @@
 # Demonstration of TypeScript custom transformer to transform d.ts files
 
-
 This is a demonstration of using the getCustomTransformers ts-loader option to transform emitted d.ts files.  It is based on the CustomTransformer comparison test in ts-loader with an afterDeclarations transformer added.
 
 The declarationsTrasformer simple replaces all identifiers with 'replaced_identifier', which is pointless but demonstrates that the transformer is running.
